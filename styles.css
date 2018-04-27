@@ -12,16 +12,62 @@ word-wrap: normal;
 Email from %%email%% The message is – %%message%%
 
 /** #Hack 3 **/
+span.mobile_menu_bar:before {
+color: red !important;
+}
 
 /** #Hack 4 **/
+ul#mobile_menu.et_mobile_menu {
+background-color: red;
+}
 
 /** #Hack 5 **/
+#main-header #top-menu li.current-menu-item > a {
+color: red !important;
+}
 
 /** #Hack 6 **/
+#footer-bottom {
+display:none;
+}
 
 /** #Hack 7 **/
+.top-row{
+  z-index: 1;
+}
+ .bottom-row{
+transform: translate(0,-171px);
+z-index:2;
+}
 
 /** #Hack 8 **/
+/** App Style header and Drop Down Menu **/
+@media (max-width: 980px) {
+.container.et_menu_container {
+width: calc( 100% - 60px);
+}
+}
+.et_mobile_menu {
+margin-left: -30px;
+padding: 5%;
+width: calc( 100% + 60px);
+}
+.mobile_nav.opened .mobile_menu_bar:before {
+content: "\4d";
+}
+/* To Change the background color of the drop down items */
+
+.et_header_style_centered #et_mobile_nav_menu {
+background-color: #000 !important;
+}
+
+/* To change the color of the navigation box */
+
+@media all and (max-width: 980px) {
+#mobile_menu {
+background-color: rgba(0, 0, 0, 1) !important;}
+}
+/* Hack 8 ends */
 
 /** #Hack 9 **/
 
