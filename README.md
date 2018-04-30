@@ -22,5 +22,7 @@ With this hack you can create overlapping rows with Divi. From my example, the .
 .bottom-row class is for the lower row that will overlap the top-row. Adjust the -171px to your choice. (Give the classes to your rows and apply the css in Advanced>>Main Element section)
 
 # Hack 8
+This piece of code changes your Divi Mobile Menu and gives it a Mobile App feel.
 
 # Hack 9
+This Hack helps you collapse your Mobile Menu dropdown items. Instead of leaving it bare and long. Navigate to Divi Theme Options>> Integrations>> Add code to the body and Paste everything there.
