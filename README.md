@@ -22,3 +22,5 @@ With this hack you can create overlapping rows with Divi. From my example, the .
 .bottom-row class is for the lower row that will overlap the top-row. Adjust the -171px to your choice. (Give the classes to your rows and apply the css in Advanced>>Main Element section)
 
 # Hack 8
+
+# Hack 9
