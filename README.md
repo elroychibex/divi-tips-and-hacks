@@ -26,3 +26,7 @@ This piece of code changes your Divi Mobile Menu and gives it a Mobile App feel.
 
 # Hack 9
 This Hack helps you collapse your Mobile Menu dropdown items. Instead of leaving it bare and long. Navigate to Divi Theme Options>> Integrations>> Add code to the body and Paste everything there.
+
+# Hack 10
+This is a general WordPress hack. It allows you to create a widget in your WordPress back-end Dashboard. Basically, you can use this to White Label your work, or to share specific information For Your Clients. Copy the code and paste in your functions.php file.
+
