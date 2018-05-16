@@ -117,3 +117,12 @@ background-color: rgba(0, 0, 0, 1) !important;}
 /** #Hack 9 ends**/
 
 /** #Hack 10 **/
+add_filter('admin_footer_text', 'remove_footer_admin');
+add_action('wp_dashboard_setup', 'my_custom_dashboard_widgets');
+function my_custom_dashboard_widgets() {
+global $wp_meta_boxes;
+wp_add_dashboard_widget('custom_widget', 'Widget Title Here', 'custom_dashboard_information');
+}
+function custom_dashboard_information() {
+echo 'Put Your Information Here. Lorem Ipsum Lorem Ipsum';
+}
