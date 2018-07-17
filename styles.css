@@ -126,3 +126,10 @@ wp_add_dashboard_widget('custom_widget', 'Widget Title Here', 'custom_dashboard_
 function custom_dashboard_information() {
 echo 'Put Your Information Here. Lorem Ipsum Lorem Ipsum';
 }
+
+/* Hack 11*/
+#top-menu li.current-menu-item > a,
+#top-menu li.current-menu-ancestor > a,
+.nav li ul .current-menu-item a {
+    color: #000 !important;
+}
