@@ -30,3 +30,5 @@ This Hack helps you collapse your Mobile Menu dropdown items. Instead of leaving
 # Hack 10
 This is a general WordPress hack. It allows you to create a widget in your WordPress back-end Dashboard. Basically, you can use this to White Label your work, or to share specific information For Your Clients. Copy the code and paste in your functions.php file.
 
+# Hack 11
+This code allows you to set the DIVI ACTIVE MENU ITEM COLOUR for menu items and their sub items too.
